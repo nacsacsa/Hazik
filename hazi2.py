@@ -12,4 +12,5 @@ def main():
     else:
         print("Not correct unit!")
 
-main()
+if __name__ == "__main__":
+	main()

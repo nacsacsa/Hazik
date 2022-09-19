@@ -17,4 +17,5 @@ def main():
     szavak_listaja.extend(mondat.split(" "))
     print("Listába helyezve szavanként: " , szavak_listaja)
 
-main()
+if __name__ == "__main__":
+	main()
