@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf8
 
-def main():
+def haromszog_szerkezheto_e():
     print("Adja meg a háromyszög három oldalát cm-ben:")
     a_oldal = int(input("a oldal (cm): "))
     b_oldal = int(input("b oldal (cm): "))
@@ -14,4 +14,4 @@ def main():
         print(szoveg_hamis.format(a_oldal, b_oldal, c_oldal))
 
 if __name__ == "__main__":
-	main()
+	haromszog_szerkezheto_e()
