@@ -21,11 +21,9 @@ if __name__ == "__main__":
     print(dev3)
     dev4 = Team("Éva", "KefERP", "Fronted")
     print(dev4)
-    dev5 = Team("Gábor", "SolArch", "Tesztelő")
-    print(dev5)
     print()
 
-    developers = [dev1, dev2, dev3 ,dev4, dev5]
+    developers = [dev1, dev2, dev3 ,dev4]
   
     for dev in developers:
         for other_dev in developers:
