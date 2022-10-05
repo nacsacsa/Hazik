@@ -29,7 +29,6 @@ if __name__ == "__main__":
     print(dev3)
     dev4 = Team("Éva", "KefERP", "Fronted")
     print(dev4)
-    dev5 = Team("Gábor", "KefERP", "Fronted")
     print()
     Team.Ugyan_az_project()
 
