@@ -6,7 +6,6 @@ class Team():
         self.nev = nev
         self.projekt = projekt
         self.szerepkor = szerepkor
-        print("-- Developer létrehozva. --")
 
     def __str__(self):
         return "{} a {}-en dolgozik {} szerepkörben.".format(self.nev,self.projekt,self.szerepkor)
@@ -25,13 +24,21 @@ class Team():
 if __name__ == "__main__":
 
     dev1 = Team("Ricsi", "SolArch", "Fronted")
+    print("-- Developer létrehozva. --")
     print(dev1)
+
     dev2 = Team("Angéla", "ZerTeng", "Tesztelő")
+    print("-- Developer létrehozva. --")
     print(dev2)
+
     dev3 = Team("Peti", "KefERP", "Backend")
+    print("-- Developer létrehozva. --")
     print(dev3)
+
     dev4 = Team("Éva", "KefERP", "Fronted")
+    print("-- Developer létrehozva. --")
     print(dev4)
+    
     print()
     Team.Ugyan_az_project()
 
